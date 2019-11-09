@@ -1,0 +1,4 @@
+Data travels through the internet, collects the information and travels back with the content.
+IP addresses are assigned to their own computer, and DNS is used to convert alphabetic reference's into an IP Address.
+Cookies are a message that web servers pass to our web browser.
+Scheme, host, path

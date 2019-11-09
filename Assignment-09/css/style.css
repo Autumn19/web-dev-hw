@@ -1,0 +1,28 @@
+h1{
+  color: red;
+  text-align: center;
+}
+ .square{
+    width:50%;
+    height:200px;
+ }
+ #olivedrab{
+   background-color: olivedrab;
+   position:relative;
+   left:30px;
+ }
+ #gold{
+   background-color: gold;
+   position:relative;
+   right:15px;
+ }
+#darkorange{
+  background-color: darkorange;
+  position:relative;
+  left:50px;
+}
+#brown{
+  background-color: brown;
+  position:relative;
+  right:10px;
+}
