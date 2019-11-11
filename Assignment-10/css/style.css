@@ -1,0 +1,31 @@
+body {
+background-color:maroon;
+color:white;
+text-align: left;
+padding: 5px
+font-family: 'Noto Serif', serif;
+}
+.text{
+  background-color: white;
+  color: maroon;
+  padding: 5px;
+}
+p:first-of-type:first-letter{
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+}
+a{
+  background-color:blue;
+  color:white;
+  padding: 5px;
+}
+a:hover{
+  font-style: italic;
+}
+a:visited{
+  color: grey;
+}
+a:active{
+  background-color: white;
+  color:blue;
+}
