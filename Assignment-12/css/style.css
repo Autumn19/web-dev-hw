@@ -1,0 +1,77 @@
+body {
+  background-color: white;
+padding: 5px
+font-family: 'Noto Serif', serif;
+font-size: 1.25em;
+}
+#site-title{
+  text-align: center;
+  background-color: ;
+}
+#site-slogan{
+  text-align: center;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+.post-title{
+  text-align: center;
+}
+.post-subtitle{
+  border-left-style: double;
+  border-bottom-style:outset;
+  border-color:black;
+}
+h3{
+
+  font-family:'Arvo-B', Georgia, serif;
+  font-size: 1em;
+}
+
+.archives-link{
+  width:15em;
+  margin: auto;
+  min-height:5em;
+}
+.button{
+  margin: auto;
+  position: relative;
+  background-color: lightgreen;
+
+  text-align: center;
+  border-color: lightgrey grey grey lightgrey;
+  border-width: 10px 15px 15px 10px;
+  border-style:solid;
+
+}
+.button:active{
+background-color: darkgreen;
+border-color: grey lightgrey lightgrey grey;
+border-width: 15px 10px 10px 15px;
+border-style:solid;
+}
+.button h3{
+  color:white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.button h3:hover{
+  text-decoration: underline overline;
+  text-decoration-color: white;
+  text-decoration-style: solid;
+}
+.button h3:active{
+  text-decoration: underline overline;
+  text-decoration-color: black;
+  text-decoration-style: solid;
+}
+
+.line{
+  border-top: 5px double darkgreen;
+}
+footer{
+  text-align: center;
+}
