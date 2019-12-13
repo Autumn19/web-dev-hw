@@ -1,0 +1,120 @@
+body {
+  background-color: white;
+padding: 5px
+font-family: 'Noto Serif', serif;
+font-size: 1.25em;
+}
+#site-title{
+  text-align: center;
+  background-color: ;
+}
+#site-slogan{
+  text-align: center;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+.post-title{
+  text-align: center;
+}
+.post-subtitle{
+  border-left-style: double;
+  border-bottom-style:outset;
+  border-color:black;
+}
+h3{
+
+  font-family:'Arvo-B', Georgia, serif;
+  font-size: 1em;
+}
+
+.archives-link{
+  width:15em;
+  margin: auto;
+  min-height:2em;
+}
+.button{
+  margin: auto;
+  position: relative;
+  background-color: pink ;
+
+  text-align: center;
+  border-color: lightgrey grey grey lightgrey;
+  border-width: 10px 15px 15px 10px;
+  border-style:solid;
+
+}
+.button:active{
+background-color: maroon;
+border-color: grey lightgrey lightgrey grey;
+border-width: 15px 10px 10px 15px;
+border-style:solid;
+}
+.button h3{
+  color:white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.button h3:hover{
+  text-decoration: underline overline;
+  text-decoration-color: white;
+  text-decoration-style: solid;
+}
+.button h3:active{
+  text-decoration: underline overline;
+  text-decoration-color: black;
+  text-decoration-style: solid;
+}
+
+.line{
+  border-top: 5px double maroon;
+}
+footer{
+  text-align: center;
+}
+.submit-links{
+  width:15em;
+  margin: auto;
+  min-height:2em;
+}
+.submit-button{
+  margin: auto;
+  position: relative;
+  background-color: pink ;
+
+  text-align: center;
+  border-color: lightgrey grey grey lightgrey;
+  border-width: 10px 15px 15px 10px;
+  border-style:solid;
+}
+.submit-button:active{
+  background-color: maroon;
+  border-color: grey lightgrey lightgrey grey;
+  border-width: 15px 10px 10px 15px;
+  border-style:solid;
+}
+
+.submit-button h1{
+  color:white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.submit-button h1:hover{
+  text-decoration: underline overline;
+  text-decoration-color: white;
+  text-decoration-style: solid;
+}
+.submit-button h1:active{
+  text-decoration: underline overline;
+  text-decoration-color: black;
+  text-decoration-style: solid;
+}
+.container{
+    border-top: 5px double maroon;
+}
+.contact{
+  text-align: center;
+}

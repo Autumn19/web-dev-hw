@@ -1,0 +1,75 @@
+menu{
+  margin: 0;
+  padding: 0;
+  background-color: lightpink;
+}
+
+#site-links{
+  margin: 0;
+  padding: 0;
+display: inline-block;
+}
+#site-links .menu-item{
+  width: 6em;
+  padding: .5em 1em;
+  display: inline-block;
+  background-color: lightpink;
+
+  text-align: center;
+  color: white;
+}
+#site-links .menu-item:hover{
+  background-color: pink;
+  color: maroon;
+  text-decoration: underline overline;
+  text-decoration-color: pink;
+  text-decoration-style: solid;
+}
+#site-links .dropdown{
+  display: inline-block;
+  width:6em;
+}
+#site-links .dropdown-content{
+  display:none;
+  position: absolute;
+
+  background-color: maroon;
+  z-index: 5;
+}
+#site-links .dropdown-content a {
+  color:pink;
+}
+#site-links .dropdown-content a:hover {
+  color:maroon;
+
+}
+#site-links .dropdown:hover .dropdown-content{
+  display:block;
+}
+#site-links .dropdown-item{
+  min-width: 6em;
+  padding:.5em 1em;
+  display: block;
+  text-align: center;
+
+}
+.dropdown-item:hover{
+  background-color: lightpink;
+}
+
+#social-links{
+  padding:.5em
+  display:inline-block;
+  float: right;
+}
+#social-links.social-items{
+  margin:0 5px;
+}
+#social-links img{
+  width: 20px;
+  height: 20px;
+  opacity: .5;
+}
+#social-links img:hover{
+  opacity: 1;
+}
